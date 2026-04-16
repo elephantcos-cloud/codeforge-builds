@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -124,7 +125,7 @@
         android:fontFamily="monospace"
         android:gravity="top|start"
         android:hint="Write your HTML / React / JS here..."
-        android:hintTextColor="@color/muted"
+        app:hintTextColor="@color/muted"
         android:inputType="textMultiLine|textNoSuggestions"
         android:padding="12dp"
         android:scrollbars="vertical"
