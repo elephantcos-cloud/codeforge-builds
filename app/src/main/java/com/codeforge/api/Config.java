@@ -7,7 +7,7 @@ package com.codeforge.api;
 public final class Config {
 
     // GitHub credentials — hardcoded
-    public static final String TOKEN    = "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";
+    public static final String TOKEN    = "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";
     public static final String OWNER    = "elephantcos-cloud";
     public static final String REPO     = "codeforge-builds";
     public static final String BRANCH   = "main";
